@@ -1,0 +1,34 @@
+/* styles.css */
+.animation-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #3498db;
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.animation-section.animate {
+  visibility: visible;
+  opacity: 1;
+}
+
+.animation-element {
+  width: 50px;
+  height: 50px;
+  background-color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  animation: slide-up 2s ease-in-out;
+}
+
+/* Keyframes definition */
+@keyframes slide-up {
+  0% {
+      transform: translateY(100%);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
