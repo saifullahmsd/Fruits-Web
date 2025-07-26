@@ -1,10 +1,10 @@
 ﻿# Online Meal site
 
-A simple and responsive fruit website built using **HTML** and **CSS**. This project showcases a clean UI layout that displays different fruits with a mobile-friendly design.
+A simple and responsive Online meal website built using **HTML** and **CSS**. This project showcases a clean UI layout that displays different fruits with a mobile-friendly design.
 
 # 🚀 Features
 
-- 🖼️ Attractive fruit images
+- 🖼️ Attractive Food images
 - 📱 Responsive layout for mobile and desktop
 - 💡 Clean HTML & CSS structure
 - 🌈 Colorful design
